@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    text-align: justify;
+    font-size: 30pt;
+}
+
+.valores {
+    font-size: 20pt;
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+    gap: 1vw;
+}
+
+.valores > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.valores > ul > li > input {
+    text-align: center;
+    font-size: x-large;
+    width: 3vw;
+    height: 3vh;
+}
+
+#botao {
+    font-size: 20pt;
+    text-align: center;
+}
+
+#botao > button {
+    height: 6vh;
+    width: 10vw;
+    font-size: xx-large;
+}
+
+#res {
+    text-align: center;
+}
