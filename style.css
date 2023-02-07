@@ -41,5 +41,8 @@ main {
 }
 
 #res {
+    margin: 2% auto 0%;
+    width: fit-content;
+    border: solid black 2px;
     text-align: center;
 }
